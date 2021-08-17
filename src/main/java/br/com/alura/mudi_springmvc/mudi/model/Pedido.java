@@ -56,4 +56,29 @@ public class Pedido {
     public String getDescricao() {
         return descricao;
     }
+
+    // Métodos Set
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setValorNegociado(BigDecimal valorNegociado) {
+        this.valorNegociado = valorNegociado;
+    }
+
+    public void setDataEntrega(LocalDate dataEntrega) {
+        this.dataEntrega = dataEntrega;
+    }
+
+    public void setUrlProduto(String urlProduto) {
+        this.urlProduto = urlProduto;
+    }
+
+    public void setUrlImagem(String urlImagem) {
+        this.urlImagem = urlImagem;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
 }
