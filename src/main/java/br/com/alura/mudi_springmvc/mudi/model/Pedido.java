@@ -1,5 +1,7 @@
 package br.com.alura.mudi_springmvc.mudi.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -19,15 +21,17 @@ public class Pedido {
     private String urlProduto;
     private String urlImagem;
     private String descricao;
+    @Enumerated(EnumType.STRING)
+    private StatusPedido status;
 
     // Construtores
-    public Pedido(String nome, BigDecimal valorNegociado, String urlProduto, String urlImagem, String descricao) {
+    public Pedido(String nome, BigDecimal valorNegociado, String urlProduto, String urlImagem, String descricao, StatusPedido status) {
         this.nome = nome;
         this.valorNegociado = valorNegociado;
-        this.dataEntrega = dataEntrega = LocalDate.now();
         this.urlProduto = urlProduto;
         this.urlImagem = urlImagem;
         this.descricao = descricao;
+        this.status = status;
     }
 
     public Pedido (){}
@@ -57,6 +61,10 @@ public class Pedido {
         return descricao;
     }
 
+    public StatusPedido getStatusPedido(){
+        return status;
+    }
+
     // Métodos Set
     public void setNome(String nome) {
         this.nome = nome;
@@ -80,5 +88,24 @@ public class Pedido {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public void setStatusPedido(StatusPedido status){
+        this.status = status;
+    }
+
+    // Método to String
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", valorNegociado=" + valorNegociado +
+                ", dataEntrega=" + dataEntrega +
+                ", urlProduto='" + urlProduto + '\'' +
+                ", urlImagem='" + urlImagem + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", status=" + status +
+                '}';
     }
 }

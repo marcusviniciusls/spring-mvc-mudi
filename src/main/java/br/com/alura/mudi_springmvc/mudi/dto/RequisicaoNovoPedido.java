@@ -1,9 +1,13 @@
 package br.com.alura.mudi_springmvc.mudi.dto;
 
 import br.com.alura.mudi_springmvc.mudi.model.Pedido;
+import br.com.alura.mudi_springmvc.mudi.model.StatusPedido;
+import org.springframework.stereotype.Service;
 
 import javax.validation.constraints.NotBlank;
+import java.time.LocalDate;
 
+@Service
 public class RequisicaoNovoPedido {
 
     @NotBlank
@@ -17,6 +21,7 @@ public class RequisicaoNovoPedido {
 
     @NotBlank
     private String descricao;
+
 
     // Métodos Gets e Sets
     public String getNomeProduto() {
@@ -57,6 +62,10 @@ public class RequisicaoNovoPedido {
         pedido.setDescricao(descricao);
         pedido.setUrlProduto(urlProduto);
         pedido.setUrlImagem(urlImagem);
+        pedido.setStatusPedido(StatusPedido.AGUARDANDO);
+        pedido.setDataEntrega(LocalDate.now());
         return pedido;
     }
+
+
 }
