@@ -1,10 +1,13 @@
 package br.com.alura.mudi_springmvc.mudi.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
+import java.util.ArrayList;
 
 @Entity
 @Table(name = "pedidos")
@@ -22,7 +25,14 @@ public class Pedido {
     private String urlImagem;
     private String descricao;
     @Enumerated(EnumType.STRING)
-    private StatusPedido status;
+    public StatusPedido status;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JsonIgnore
+    private User user;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "pedido", fetch = FetchType.LAZY)
+    private List<Oferta> oferta = new ArrayList<>();
 
     // Construtores
     public Pedido(String nome, BigDecimal valorNegociado, String urlProduto, String urlImagem, String descricao, StatusPedido status) {
@@ -65,6 +75,23 @@ public class Pedido {
         return status;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public StatusPedido getStatus() {
+        return status;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+
+    public List<Oferta> getOferta() {
+        return oferta;
+    }
+
     // Métodos Set
     public void setNome(String nome) {
         this.nome = nome;
@@ -92,6 +119,14 @@ public class Pedido {
 
     public void setStatusPedido(StatusPedido status){
         this.status = status;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public void setOferta(List<Oferta> oferta) {
+        this.oferta = oferta;
     }
 
     // Método to String
