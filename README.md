@@ -9,8 +9,13 @@ Aplicação criada com base em dois cursos realizados no Alura.
 
 ## Tecnologias Utilizadas
 
-<img src="https://getbootstrap.com.br/docs/4.1/assets/img/bootstrap-stack.png" width="20%" /> <br/> <img src="https://lh3.googleusercontent.com/proxy/9baRK2uUuVf0XHQPG12PkGoKfGGCwdylb59urwf3k28DZyGqTIVSamtHuKVI6ev0-aXyNU3exzzScsTFb3_zg1JpFkImhTI3d6MyVzH6JsryWsDxniI75FzC2m42mH23yoA" width="20%" />           
-<img src="https://fernandofranzini.files.wordpress.com/2018/03/curso-de-hibernate-1505094598.jpg" width="20%" /> <br/>
+<table width="100%">
+  <tr>
+    <td width="33%"><img src="https://getbootstrap.com.br/docs/4.1/assets/img/bootstrap-stack.png" width="20%" /> </td>
+    <td width="33%"><img src="https://lh3.googleusercontent.com/proxy/9baRK2uUuVf0XHQPG12PkGoKfGGCwdylb59urwf3k28DZyGqTIVSamtHuKVI6ev0-aXyNU3exzzScsTFb3_zg1JpFkImhTI3d6MyVzH6JsryWsDxniI75FzC2m42mH23yoA" width="20%" /> </td>
+    <td width="34%"><img src="https://fernandofranzini.files.wordpress.com/2018/03/curso-de-hibernate-1505094598.jpg" width="20%" /></td>
+    <tr>
+  </table>
 <img src="https://miro.medium.com/max/952/1*4ZPi1b_ca54pUE9xRB-IFQ.jpeg" width="20%" /> <br/>
 <img src="https://www.dariawan.com/media/images/tech-spring-security.width-1024.png" width="20%" /> <br/>
 <img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/03/THYMELEAF.png" width="20%" /> <br/>
