@@ -9,7 +9,7 @@ Aplicação criada com base em dois cursos realizados no Alura.
 
 ## Tecnologias Utilizadas
 
-<table width="100%">
+<table width="100%" border="0">
   <tr>
     <td width="33%"><img src="https://getbootstrap.com.br/docs/4.1/assets/img/bootstrap-stack.png" width="20%" /> </td>
     <td width="33%"><img src="https://lh3.googleusercontent.com/proxy/9baRK2uUuVf0XHQPG12PkGoKfGGCwdylb59urwf3k28DZyGqTIVSamtHuKVI6ev0-aXyNU3exzzScsTFb3_zg1JpFkImhTI3d6MyVzH6JsryWsDxniI75FzC2m42mH23yoA" width="20%" /> </td>
