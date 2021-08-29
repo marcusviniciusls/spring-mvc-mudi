@@ -20,3 +20,4 @@ Aplicação criada com base em dois cursos realizados no Alura.
 <img src="https://miro.medium.com/max/340/1*tXsNDPFpOjsgAtYYo-iwoQ.png" width="20%" /> <br/>
 <img src="https://lh3.googleusercontent.com/proxy/KW6yqgh44NXwuKWLmRy3bt5mKqRam5j072zZeNVhPpiCfdXBcFJirHY1I7Swz_KcuViQpZNzhv0SXUZ0ITbmMXI9SUhf49SnDGy6q3XNrD5Ez6Qn869q0yfhWb2KXT2F1hXvRJ0VpnKmcxFs4Xg" width="20%" /> <br/>
 <img src="https://lh3.googleusercontent.com/proxy/KW6yqgh44NXwuKWLmRy3bt5mKqRam5j072zZeNVhPpiCfdXBcFJirHY1I7Swz_KcuViQpZNzhv0SXUZ0ITbmMXI9SUhf49SnDGy6q3XNrD5Ez6Qn869q0yfhWb2KXT2F1hXvRJ0VpnKmcxFs4Xg" width="20%" /> <br/>
+<img src="https://s2.glbimg.com/5pgaEIiZXIVWgSTOtfKBtm5AHaU=/695x393/s2.glbimg.com/vME2Bq4OSpm6f6IE16BhcVLR98U=/695x0/s.glbimg.com/po/tt2/f/original/2014/11/14/java-logo.jpg" width="20%" /> <br/>
