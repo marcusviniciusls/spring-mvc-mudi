@@ -9,4 +9,4 @@ Aplicação criada com base em dois cursos realizados no Alura.
 
 ## Tecnologias Utilizadas
 
-<img src="https://getbootstrap.com.br/docs/4.1/assets/img/bootstrap-stack.png"/>
+|<img src="https://getbootstrap.com.br/docs/4.1/assets/img/bootstrap-stack.png" width="100%" /> | 
